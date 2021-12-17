@@ -6,13 +6,15 @@
 #    By: clora-ro <clora-ro@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/29 14:42:14 by clora-ro          #+#    #+#              #
-#    Updated: 2021/11/29 14:45:44 by clora-ro         ###   ########lyon.fr    #
+#    Updated: 2021/12/17 16:49:52 by clora-ro         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
-SRCS = 
+SRCS = ft_printf.c			\
+		ft_printf_utils.c	\
+		ft_printf_nbr.c
 
 OBJS := $(SRCS:.c=.o)
 
